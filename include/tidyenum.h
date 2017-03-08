@@ -65,7 +65,9 @@ typedef enum
   TidyOutCharEncoding,     /**< Output character encoding (if different) */
   TidyNewline,             /**< Output line ending (default to platform) */
 
+#ifndef DOXYGEN_SHOULD_SKIP_THIS
   TidyDoctypeMode,         /**< See doctype property */
+#endif /* DOXYGEN_SHOULD_SKIP_THIS */
   TidyDoctype,             /**< User specified doctype */
 
   TidyDuplicateAttrs,      /**< Keep first or last duplicate attribute */
@@ -122,7 +124,9 @@ typedef enum
   TidyWord2000,            /**< Draconian cleaning for Word2000 */
   TidyMark,                /**< Add meta element indicating tidied doc */
   TidyEmacs,               /**< If true format error output for GNU Emacs */
+#ifndef DOXYGEN_SHOULD_SKIP_THIS
   TidyEmacsFile,           /**< Name of current Emacs file */
+#endif /* DOXYGEN_SHOULD_SKIP_THIS */
   TidyLiteralAttribs,      /**< If true attributes may use newlines */
   TidyBodyOnly,            /**< Output BODY content only */
   TidyFixUri,              /**< Applies URI encoding if necessary */
